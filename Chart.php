@@ -43,7 +43,7 @@ class Chart extends Widget
 		$this->registerClientScript($this->renderid);
 		
 		//return self::chartOption($this->chartOption);
-		print_r(self::setProvider($this->dataArray,$this->dataField));
+		//print_r(self::setProvider($this->dataArray,$this->dataField));
 	}	
 	
 	 /**
