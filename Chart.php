@@ -35,8 +35,8 @@ class Chart extends Widget
 	public $type='';
 	public $renderid='';
 	public $chartOption='';
-	public $width;
-	public $height;
+	public $width = 500;
+	public $height = 300;
 	
 	
 	public function run()	{		
